@@ -1,7 +1,18 @@
 package com.tmf.bank.classes;
 public class Triangle {
-	private String type;
-	private int height;
+	public Triangle(String type)
+	{
+		this.type=type;
+	}
+	public Triangle(String type,int height)
+	{
+		this.type=type;
+		this.height=height;
+	}
+	public Triangle(int height,String type) {
+		this.type=type;
+		this.height=height;
+	}
 	public void setType(String type)
 	{
 		this.type=type;
